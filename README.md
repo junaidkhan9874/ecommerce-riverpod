@@ -1,4 +1,4 @@
-# ecommerce_app_assignment
+# Ecommerce app with Riverpod
 
 A new Flutter project.
 
