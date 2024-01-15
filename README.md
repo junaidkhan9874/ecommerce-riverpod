@@ -1,16 +1,33 @@
 # Ecommerce app with Riverpod
 
-A new Flutter project.
+### Overview
+This Flutter app is a simple eCommerce application that allows users to browse products, view product details, and manage their shopping cart. The app utilizes the Riverpod state management library, Dio for API requests, and Hive for local storage of cart items.
 
-## Getting Started
+### Screens
+1. Home Screen
+Displays a list of all products available for purchase.
+Users can browse through the product list and tap on a product to view details.
+2. Product Details Screen
+Provides detailed information about a selected product.
+Users can add the product to their cart from this screen.
+4. Cart Screen
+Shows the items added to the cart.
+Users can update the quantity of items or remove them from the cart.
 
-This project is a starting point for a Flutter application.
+### Dependencies
+**Riverpod**: State management library for Flutter.
 
-A few resources to get you started if this is your first Flutter project:
+**Dio**: HTTP client for making API requests.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+**Hive**: Local database for storing cart items.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+
+### Configuration
+
+**API Integration:**
+Update the API endpoints in the api_service.dart file.
+Ensure that the API responses are correctly parsed in the respective model classes.
+
+**Hive Configuration:**
+Modify the Hive initialization in the main.dart file according to your needs.
+
