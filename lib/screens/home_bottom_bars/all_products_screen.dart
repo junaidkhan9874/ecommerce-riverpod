@@ -1,9 +1,9 @@
 import 'package:cached_network_image/cached_network_image.dart';
 import 'package:ecommerce_app_assignment/api_interface/api_interface_class.dart';
-import 'package:ecommerce_app_assignment/colors.dart';
+import 'package:ecommerce_app_assignment/utils/colors.dart';
 import 'package:ecommerce_app_assignment/model/item.dart';
 
-import 'package:ecommerce_app_assignment/utils/Utils.dart';
+import 'package:ecommerce_app_assignment/utils/utils.dart';
 import 'package:flutter/material.dart';
 import 'package:hooks_riverpod/hooks_riverpod.dart';
 

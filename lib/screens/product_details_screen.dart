@@ -1,5 +1,5 @@
-import 'package:ecommerce_app_assignment/colors.dart';
-import 'package:ecommerce_app_assignment/utils/Utils.dart';
+import 'package:ecommerce_app_assignment/utils/colors.dart';
+import 'package:ecommerce_app_assignment/utils/utils.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 

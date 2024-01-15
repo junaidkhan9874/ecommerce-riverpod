@@ -1,9 +1,9 @@
 
-import 'package:ecommerce_app_assignment/utils/Utils.dart';
+import 'package:ecommerce_app_assignment/utils/utils.dart';
 import 'package:flutter/material.dart';
 import 'package:hooks_riverpod/hooks_riverpod.dart';
 
-import '../colors.dart';
+import '../utils/colors.dart';
 import 'home_bottom_bars/all_products_screen.dart';
 import 'home_bottom_bars/cart_screen.dart';
 
